@@ -6,7 +6,7 @@
 # Syntax:
 # extractdomain.sh [file] [targetcolumn] [most common length of first word] [delimiter] [startrow] [endrow]
 # Example:
-# Eile: domains.txt
+# File: domains.txt
 # web-site.com,otherjunkdata,morejunkdata
 # webpage-name.com,otherjunkdata,morejunkdata
 # website-title.net,somuch,junk,data
@@ -17,7 +17,7 @@
 # OUT >> Website Title net
 #
 # Can be used in equivalent manor for *@*.* format addresses e.g. email:
-# email@address.com becomes Email Address Com
+# email@address.com becomes Email Address com
 
 # Arguments
 file=$1
